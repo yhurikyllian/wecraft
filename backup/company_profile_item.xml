@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/profile_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"/>
+    
+    <TextView
+        android:id="@+id/profile_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <TextView 
+        android:id="@+id/profile_company_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_company_name"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:textSize="12sp"/>
+    
+    <TextView 
+        android:id="@+id/profile_company_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_company_address"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:textSize="12sp"/>
+    
+    <TextView 
+        android:id="@+id/profile_company_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_logo"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

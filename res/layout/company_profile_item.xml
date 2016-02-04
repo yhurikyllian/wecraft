@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/profile_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"/>
+    
+    <TextView
+        android:id="@+id/profile_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+    
+    <TextView
+        android:id="@+id/static_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_company_name"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:layout_marginTop="5dip"
+        android:text="@string/static_address" 
+        android:textSize="10sp"/>
+    
+    <TextView 
+        android:id="@+id/profile_company_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_company_name"
+        android:layout_toRightOf="@+id/static_address"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="2dip"
+        android:textColor="#343434"
+        android:textSize="10sp"/>
+    
+    <TextView
+        android:id="@+id/static_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_logo"
+        android:layout_below="@+id/profile_company_address"
+        android:layout_marginTop="5dip"
+        android:text="@string/static_kontak" 
+        android:textSize="10sp"/>
+    
+    <TextView  
+        android:id="@+id/profile_company_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/static_contact"
+        android:layout_below="@+id/profile_company_address"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="2dip"
+        android:textColor="#343434"
+        android:textSize="10sp"/>
+    
+    <com.bluejamesbond.text.DocumentView
+                android:id="@+id/profile_company_description"
+                xmlns:ext="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_logo"
+                android:layout_marginTop="5dip"
+         		android:layout_marginLeft="5dip"
+         		android:layout_marginRight="5dip"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                ext:documentView_hyphen="-"
+                ext:documentView_reverse="false"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="#343434"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSize="10sp"
+                ext:documentView_textSubPixel="true"/>
+
+</RelativeLayout>

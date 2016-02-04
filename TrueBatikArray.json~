@@ -1,0 +1,48 @@
+[
+ {
+  "name": "Batik 1",
+  "address": "Jl. Blok Malang No. 13 Cipondoh, Tangerang",
+  "city": "Tangerang",
+  "description": "Description about batik1 company",
+  "tag": "batik",
+  "logo": "company1.png",
+  "rating": "3",
+  "contact": [
+   {
+    "hp": [ "087809634720", "085643215733" ],
+    "bbm": [ "FE34d2" ]
+   }
+  ],
+  "product": [
+   { "pName": "Batik Pekalongan 1", "pImage": "batik1.jpg"},
+   { "pName": "Batik Pekalongan 2", "pImage": "batik2.jpg"},
+  ]
+ },
+ {
+  "name": "Batik 2",
+  "address": "Jl. Pegangsaan Timur no. 15 Jakarta",
+  "city": "Jakarta",
+  "description": "Description about batik2 company",
+  "tag": "batik",
+  "logo": "company1.png",
+  "rating": "2",
+  "contact": [
+   {
+    "hp": [ "085623410987" ],
+    "bbm": [ ]
+   }
+  ],
+  "product": [
+   { "pName": "Batik Jakarta 1", "pImage": "batik3.jpg"},
+   { "pName": "Batik Jakarta 2", "pImage": "batik2.jpg"},
+  ]
+  "contact": [
+   "085623410987" ],
+  "image": [
+   "batik3.jpg",
+   "batik2.jpg" ],
+  "product": [
+   "Batik Jakarta 1",
+   "Batik Jakarta 2" ]
+ }
+]
